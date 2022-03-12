@@ -1,5 +1,5 @@
 {% set name = "zmesh" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 503d5d21b0c8221f5cd76903a3d065a624994fc26f0faf09422ba74be1c302ef
+  sha256: d3a40daf73ffa20baf7f126e7272b459bcabf9084795d3c9db89a20a5861c997
 
 build:
   skip: true  # [win]

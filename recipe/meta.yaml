@@ -33,7 +33,7 @@ test:
 
 about:
   home: https://github.com/seung-lab/zmesh
-  license: GPL-3.0
+  license: GPL-3.0-only
   license_family: GPL
   license_file: LICENSE
   summary: Multi-Label Marching Cubes & Mesh Simplification

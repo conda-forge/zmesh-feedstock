@@ -22,7 +22,6 @@ requirements:
     - pip
     - pbr
     - numpy
-    - boost
   run:
     - python
     - {{ pin_compatible('numpy') }}

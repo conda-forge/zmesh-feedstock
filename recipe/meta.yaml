@@ -20,7 +20,7 @@ requirements:
   host:
     - python
     - pip
-    - cython
+    - cython <3
     - pbr
     - numpy
   run:

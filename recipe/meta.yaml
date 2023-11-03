@@ -1,5 +1,5 @@
 {% set name = "zmesh" %}
-{% set version = "1.7.0" %}
+{% set version = "1.7.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 80d899cf9bc46d7235b4f03328bf9b3aa9c9684ab9eaa7802fb9d59db883343f
+  sha256: 63c0d9c90da40a29b9693d3930ffeb1092aeddb92c600cdbd2acf918b736b72f
 
 build:
   skip: true  # [win]
@@ -20,7 +20,7 @@ requirements:
   host:
     - python
     - pip
-    - cython
+    - cython <3
     - pbr
     - numpy
   run:

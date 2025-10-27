@@ -24,6 +24,7 @@ requirements:
     - cython <3
     - pbr
     - numpy
+    - setuptools
   run:
     - python
 

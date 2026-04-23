@@ -5,7 +5,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/z/zmesh/zmesh{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/z/zmesh/zmesh-{{ version }}.tar.gz
   sha256: 97311aed518cb8524291740ffb8c445ed022abcdf58f260366bd32d8f93348c4
 
 build:

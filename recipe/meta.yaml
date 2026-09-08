@@ -5,13 +5,13 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/z/zmesh/zmesh-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/z/zmesh/zmesh-{{ version }}.tar.gz
   sha256: 463bf7bbe24e8d8a65cada1245397595d30dfc546ec0545b61467622286b834e
 
 build:
   skip: true  # [py<39]
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   build:
